@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: e76adffc96d909945a75f30758ed31d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6010490761293882166
+    second: Standing_,_Runing_,_Jumping_Sheet_0
+  - first:
+      213: 2845114980859735870
+    second: Standing_,_Runing_,_Jumping_Sheet_1
+  - first:
+      213: 9180852871174031060
+    second: Standing_,_Runing_,_Jumping_Sheet_2
+  - first:
+      213: -4353095278653977704
+    second: Standing_,_Runing_,_Jumping_Sheet_3
+  - first:
+      213: -6486913761166705730
+    second: Standing_,_Runing_,_Jumping_Sheet_4
+  - first:
+      213: 6957139055413149695
+    second: Standing_,_Runing_,_Jumping_Sheet_5
+  - first:
+      213: 4467744361104117766
+    second: Standing_,_Runing_,_Jumping_Sheet_6
+  - first:
+      213: 8018096456858212767
+    second: Standing_,_Runing_,_Jumping_Sheet_7
+  - first:
+      213: -8755243076631070865
+    second: Standing_,_Runing_,_Jumping_Sheet_8
+  - first:
+      213: -5472132004806145535
+    second: Standing_,_Runing_,_Jumping_Sheet_9
+  - first:
+      213: -4962973721986739424
+    second: Standing_,_Runing_,_Jumping_Sheet_10
+  - first:
+      213: 7555966496627786784
+    second: Standing_,_Runing_,_Jumping_Sheet_11
+  - first:
+      213: -4585511746395903865
+    second: Standing_,_Runing_,_Jumping_Sheet_12
+  - first:
+      213: -4527853308611485870
+    second: Standing_,_Runing_,_Jumping_Sheet_13
+  - first:
+      213: -5935211109209375574
+    second: Standing_,_Runing_,_Jumping_Sheet_14
+  - first:
+      213: 1448448692406141738
+    second: Standing_,_Runing_,_Jumping_Sheet_15
+  - first:
+      213: -5665428995589577039
+    second: Standing_,_Runing_,_Jumping_Sheet_16
+  - first:
+      213: 3404966262249502790
+    second: Standing_,_Runing_,_Jumping_Sheet_17
+  - first:
+      213: 902357771362386422
+    second: Standing_,_Runing_,_Jumping_Sheet_18
+  - first:
+      213: 2113286286142225395
+    second: Standing_,_Runing_,_Jumping_Sheet_19
+  - first:
+      213: 1000123793390298324
+    second: Standing_,_Runing_,_Jumping_Sheet_20
+  - first:
+      213: 9020760711653236828
+    second: Standing_,_Runing_,_Jumping_Sheet_21
+  - first:
+      213: 2536997265658664163
+    second: Standing_,_Runing_,_Jumping_Sheet_22
+  - first:
+      213: -4557353566849646617
+    second: Standing_,_Runing_,_Jumping_Sheet_23
+  - first:
+      213: -4904771298367915272
+    second: Standing_,_Runing_,_Jumping_Sheet_24
+  - first:
+      213: -3915388363942862093
+    second: Standing_,_Runing_,_Jumping_Sheet_25
+  - first:
+      213: -5315969812790849789
+    second: Standing_,_Runing_,_Jumping_Sheet_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Standing_,_Runing_,_Jumping_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 352
+        width: 23
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63360b0a08d896350800000000000000
+      internalID: 6010490761293882166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standing_,_Runing_,_Jumping_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 352
+        width: 23
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f69434001eb7720800000000000000
+      internalID: 2845114980859735870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standing_,_Runing_,_Jumping_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 352
+        width: 23
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d604794b01f86f70800000000000000
+      internalID: 9180852871174031060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standing_,_Runing_,_Jumping_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 352
+        width: 23
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b466268e2b693c0800000000000000
+      internalID: -4353095278653977704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standing_,_Runing_,_Jumping_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 352
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbb019ad4ad9f5a0800000000000000
+      internalID: -6486913761166705730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standing_,_Runing_,_Jumping_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 352
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fffb5e24c19bc8060800000000000000
+      internalID: 6957139055413149695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standing_,_Runing_,_Jumping_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 352
+        width: 23
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6009dd643dd900e30800000000000000
+      internalID: 4467744361104117766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standing_,_Runing_,_Jumping_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 305
+        width: 36
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f991addee30064f60800000000000000
+      internalID: 8018096456858212767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standing_,_Runing_,_Jumping_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 305
+        width: 36
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67f43f1fc02f7680800000000000000
+      internalID: -8755243076631070865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standing_,_Runing_,_Jumping_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 305
+        width: 35
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10acb792fe41f04b0800000000000000
+      internalID: -5472132004806145535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standing_,_Runing_,_Jumping_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 305
+        width: 37
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023d16fd1b9ff1bb0800000000000000
+      internalID: -4962973721986739424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standing_,_Runing_,_Jumping_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 243
+        width: 41
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788e0ba9c5dfc50c0800000000000000
+      internalID: -4585511746395903865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standing_,_Runing_,_Jumping_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 236
+        width: 50
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac7f9831f4e1ada0800000000000000
+      internalID: -5935211109209375574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standing_,_Runing_,_Jumping_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 226
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a234f3a596ce91410800000000000000
+      internalID: 1448448692406141738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standing_,_Runing_,_Jumping_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 226
+        width: 36
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb363a3ea6e35d10800000000000000
+      internalID: 2113286286142225395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standing_,_Runing_,_Jumping_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 226
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4e17c8a4721ed00800000000000000
+      internalID: 1000123793390298324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standing_,_Runing_,_Jumping_Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 226
+        width: 44
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fc6e7de91e936b0800000000000000
+      internalID: -5315969812790849789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standing_,_Runing_,_Jumping_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 226
+        width: 47
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0248046de7f2cd860800000000000000
+      internalID: 7555966496627786784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
