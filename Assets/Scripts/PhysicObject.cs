@@ -8,7 +8,7 @@ public class PhysicObject : MonoBehaviour
     public float minGroundNormalY = 0.65f;
 
     protected Vector2 velocity;
-    protected Rigidbody2D rigidbody;
+    protected new Rigidbody2D rigidbody;
     protected ContactFilter2D contactFilter;
     protected RaycastHit2D[] hitBuffer = new RaycastHit2D[16];
     protected List<RaycastHit2D> hitBufferList = new List<RaycastHit2D>(16);

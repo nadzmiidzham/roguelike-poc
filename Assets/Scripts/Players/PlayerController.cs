@@ -29,7 +29,8 @@ public class PlayerController : PhysicObject
             velocity.y = (velocity.y > 0) ? 0.5f : velocity.y;
         }
 
-        bool flipSprite = spriteRenderer.flipX ? (move.x > 0.01f) : (move.x < 0.01f);
+        Debug.Log(move.x);
+        bool flipSprite = spriteRenderer.flipX ? (move.x > 0) : (move.x < 0);
         if (flipSprite)
         {
             spriteRenderer.flipX = !spriteRenderer.flipX;
