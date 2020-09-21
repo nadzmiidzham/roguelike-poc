@@ -19,3 +19,4 @@ MonoBehaviour:
   atk: 1
   def: 1
   spd: 7
+  jumpForce: 12

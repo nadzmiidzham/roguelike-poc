@@ -7,5 +7,6 @@ public class PlayerState : ScriptableObject
 {
     public float hp, ep;
     public float maxHp, maxEp;
-    public float atk, def, spd;
+    public float atk, def;
+    public float spd, jumpForce;
 }

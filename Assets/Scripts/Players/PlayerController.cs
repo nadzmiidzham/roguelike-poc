@@ -1,70 +1,40 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : PhysicObject
 {
+    [Header("Player Behaviour")]
     public PlayerState playerState;
-    public float jumpForce;
 
-    // ground check
-    public LayerMask groundLayer;
-    public Transform groundCheck;
-    public float groundCheckRadius;
+    private SpriteRenderer spriteRenderer;
 
-    // wall check
-    public LayerMask wallLayer;
-    public Transform wallCheck;
-    public float wallCheckRadius;
-
-    private float moveDirection;
-    private new Rigidbody2D rigidbody;
-    private bool isFacingRight = true;
-    private bool isGrounded = false;
-    private bool isTouchingWall = false;
-
-    void Start()
+    void Awake()
     {
-        rigidbody = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    void Update()
+    protected override void ComputeVelocity()
     {
-        // setup variables
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-        isTouchingWall = Physics2D.OverlapCircle(wallCheck.position, wallCheckRadius, wallLayer);
-        moveDirection = Input.GetAxisRaw("Horizontal");
+        Vector2 move = Vector2.zero;
 
-        // action
-        // movement
-        rigidbody.velocity = new Vector2(moveDirection * playerState.spd, rigidbody.velocity.y);
-        if (!isFacingRight && (moveDirection > 0))
+        move.x = Input.GetAxis("Horizontal");
+
+        if (Input.GetButtonDown("Jump") && grounded)
         {
-            Flip();
+            velocity.y = playerState.jumpForce;
         }
-        else if (isFacingRight && (moveDirection < 0))
+        else if (Input.GetButtonUp("Jump"))
         {
-            Flip();
+            velocity.y = (velocity.y > 0) ? 0.5f : velocity.y;
         }
 
-        // jump
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded && !isTouchingWall)
+        bool flipSprite = spriteRenderer.flipX ? (move.x > 0.01f) : (move.x < 0.01f);
+        if (flipSprite)
         {
-            Debug.Log("Jump");
-            rigidbody.velocity = Vector2.up * jumpForce;
+            spriteRenderer.flipX = !spriteRenderer.flipX;
         }
 
-        // wall jump
-        if (Input.GetKeyDown(KeyCode.Space) && !isGrounded && isTouchingWall)
-        {
-            Debug.Log("Wall Jump");
-            rigidbody.velocity = (new Vector2(5, 1)) * jumpForce;
-        }
-    }
-
-    void Flip()
-    {
-        isFacingRight = !isFacingRight;
-        Vector3 scale = transform.localScale;
-        scale.x *= -1;
-        transform.localScale = scale;
+        targetVelocity = move * playerState.spd;
     }
 }
