@@ -18,5 +18,5 @@ MonoBehaviour:
   maxEp: 100
   atk: 1
   def: 1
-  spd: 7
-  jumpForce: 12
+  spd: 10
+  jumpForce: 7
