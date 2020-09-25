@@ -77,7 +77,7 @@ public class PlayerController : MonoBehaviour
             WallJump(Vector2.right);
             isWallJump = true;
         }
-        if (onWall && !onGround)
+        if (onWall && !onGround && (direction.x == (isFacingRight ? Vector2.right.x : Vector2.left.x)))
         {
             WallSlide();
         }
