@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     public PlayerState playerState;
     public LayerMask groundlayer;
-    public Vector2 bottomOffset, rightOffset;
+    public Vector2 topCheck, bottomCheck, rightCheck, leftCheck;
     public float collisionRadius;
     public float fallMultiplier = 2.5f;
     public float lowJumpMultiplier = 2f;
@@ -30,8 +30,8 @@ public class PlayerController : MonoBehaviour
     {
         Vector2 direction = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 
-        onGround = Physics2D.OverlapCircle((Vector2)transform.position + bottomOffset, collisionRadius, groundlayer);
-        onWall = Physics2D.OverlapCircle((Vector2)transform.position + rightOffset, collisionRadius, groundlayer);
+        onGround = Physics2D.OverlapCircle((Vector2)transform.position + bottomCheck, collisionRadius, groundlayer);
+        onWall = Physics2D.OverlapCircle((Vector2)transform.position + rightCheck, collisionRadius, groundlayer);
 
         // add gravity based on how long the jump
         if (rigidbody.velocity.y < 0)
@@ -113,17 +113,23 @@ public class PlayerController : MonoBehaviour
         theScale.x *= -1;
         transform.localScale = theScale;
 
-        // change bottom & right offset
-        bottomOffset.x *= -1;
-        rightOffset.x *= -1;
+        // change bottom & right check
+        topCheck.x *= -1;
+        bottomCheck.x *= -1;
+        rightCheck.x *= -1;
+        leftCheck.x *= -1;
     }
 
     void OnDrawGizmos()
     {
-        var position = new Vector2[] { bottomOffset, rightOffset };
+        var position = new Vector2[] { topCheck, bottomCheck, rightCheck, leftCheck };
 
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere((Vector2)transform.position + bottomOffset, collisionRadius);
-        Gizmos.DrawWireSphere((Vector2)transform.position + rightOffset, collisionRadius);
+        Gizmos.DrawWireSphere((Vector2)transform.position + topCheck, collisionRadius);
+        Gizmos.DrawWireSphere((Vector2)transform.position + bottomCheck, collisionRadius);
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere((Vector2)transform.position + rightCheck, collisionRadius);
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere((Vector2)transform.position + leftCheck, collisionRadius);
     }
 }
