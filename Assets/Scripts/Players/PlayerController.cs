@@ -68,7 +68,7 @@ public class PlayerController : MonoBehaviour
         // jump
         if (Input.GetButtonDown("Jump") && onGround)
         {
-            Jump(Vector2.up);
+            Jump();
         }
 
         // wall jump
@@ -88,10 +88,10 @@ public class PlayerController : MonoBehaviour
         rigidbody.velocity = (new Vector2(direction.x * playerState.spd, rigidbody.velocity.y));
     }
 
-    void Jump(Vector2 direction)
+    void Jump()
     {
         rigidbody.velocity = new Vector2(rigidbody.velocity.x, 0);
-        rigidbody.velocity += direction * playerState.jumpForce;
+        rigidbody.velocity += Vector2.up * playerState.jumpForce;
     }
 
     void WallJump(Vector2 direction)
